@@ -1,4 +1,4 @@
-# Conecta Fortaleza - Frontend (Nuxt 3)
+# Conecta Fortaleza
 
 Este é o projeto frontend do Conecta Fortaleza, desenvolvido com Nuxt 3, Vue 3, PrimeVue e TailwindCSS.
 
@@ -22,9 +22,23 @@ npm run install-all
 
 ```
 
-3. Configurar variáveis de ambiente:
-Na Raíz do repositório, terá um arquivo .env.example. Crie um novo arquivo chamado .env e coloque as informações do .env.example no novo .env.
-Repita o processo nas pastas /auth-service e /database-service, onde cada um terá seus respectivos .env.example a ser copiados em .env.
+3 - Configuração dos arquivos .env
+
+Na pasta principal, terá um arquivo '.env.example', crie um arquivo .env com as informações do .env.example. Repita o processo em /database-service e /auth-service.
+
+```
+cp .env.example .env                  # na raiz
+```
+```
+cd auth-service && cp .env.example .env
+```
+```
+cd ../database-service && cp .env.example .env
+```
+
+
+
+
 
 ## Desenvolvimento
 
