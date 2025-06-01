@@ -22,7 +22,9 @@ npm run install-all
 
 ```
 
-
+3. Configurar variáveis de ambiente:
+Na Raíz do repositório, terá um arquivo .env.example. Crie um novo arquivo chamado .env e coloque as informações do .env.example no novo .env.
+Repita o processo nas pastas /auth-service e /database-service, onde cada um terá seus respectivos .env.example a ser copiados em .env.
 
 ## Desenvolvimento
 
